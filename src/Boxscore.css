@@ -1,0 +1,178 @@
+.container {
+    width: 70vw;
+    margin-Left: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    
+    
+}
+
+.scoreTicker {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 1px 1px #e8e8e8;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+.periodScore {
+    height: 100%;
+    width: 12%;
+}
+.TeamName{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+
+}
+.TeamLabelTime {
+    height: 33.3%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    background-color: #18314f;
+    
+}
+
+.TeamLabel {
+    height: 36%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    
+}
+.QuarterSection {
+    height: 100%;
+    width: 8%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    
+}
+.TopScorerSection {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    
+}
+.ScoreSection {
+    height: 33.3%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+.ScoreSectionNumber {
+    height: 33.3%;
+    width: 100%;
+    justify-content: center;
+    background-color: #18314f;
+    align-items: center;
+    display: flex;
+    
+    
+    
+}
+
+.TeamInfo {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.TeamInfoSection {
+    height: 100%;
+    width: 40%;
+    background-color: dodgerblue;
+}
+
+.GameInfo {
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+
+
+.StatsContainer {
+    height: 78%;
+    width: 100%;
+    margin-top: 2%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.TeamStatsLabel {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: red;
+}
+.TeamNameStats {
+    height: 100%;
+    width: 100%;
+    background-color: #18314f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.TeamNameTextBold {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+.TeamNameText {
+    font-size: 25px;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.TeamPlayerStatsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlayerStatLine {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.PlayerName {
+    height: 100%;
+    width: 20%;
+    background-color:#f0f0f0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.StatSection {
+    height: 100%;
+    width: 6%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

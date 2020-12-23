@@ -1,0 +1,196 @@
+
+.Baseballcontainer {
+    width: 70vw;
+    margin-Left: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    
+    
+}
+
+.BaseballContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.BaseballscoreTicker {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 1px 1px 1px #e8e8e8;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+.BaseballperiodScore {
+    height: 100%;
+    width: 6%;
+}
+.BaseballTeamName{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+}
+
+.BaseballTeamLabel {
+    height: 33.3%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    
+}
+
+.BaseballTeamLabelTime {
+    height: 33.3%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    background-color: #18314f;
+    border-right: 1px solid;
+}
+.BaseballQuarterSection {
+    height: 100%;
+    width: 6.66666%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    
+}
+.BaseballScoreSection {
+    height: 33.3%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.BaseballScoreSectionNumber {
+    height: 33.3%;
+    width: 100%;
+    justify-content: center;
+    background-color: #18314f;
+    align-items: center;
+    display: flex;
+    
+    
+    
+}
+.numberHeaderText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+
+.HeaderText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f0f0f0;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.TeamPaddingText {
+    font-size: 15px;
+    font-weight: 400;
+    color: #18314f;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.BaseballTeamInfo {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.BaseballTeamInfoSection {
+    height: 100%;
+    width: 40%;
+    background-color: dodgerblue;
+}
+
+.BaseballGameInfo {
+    height: 100%;
+    width: 20%;
+    background-color: red;
+}
+
+
+.StatsContainer {
+    margin-top: 2%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.TeamStatsLabel {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    background-color: red;
+}
+.TeamNameStats {
+    height: 100%;
+    width: 100%;
+    background-color: #18314f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.TeamNameTextBold {
+    font-size: 25px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+.TeamNameText {
+    font-size: 25px;
+    font-weight: 400;
+    color: #f0f0f0;
+}
+
+.TeamPlayerStatsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PlayerStatLine {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.PlayerName {
+    height: 100%;
+    width: 20%;
+    background-color:#f0f0f0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.StatSection {
+    height: 100%;
+    width: 6%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
